@@ -1,3 +1,6 @@
 @import "./utils/variables";
-@import "./base/normalize";
+@import "./utils/hide";
+@import "./utils/mixins";
+@import "./utils/placeholders";
+@import "./base/defaults";
 @import "./components/page-header";
