@@ -176,4 +176,48 @@ header .logo:hover, header .logo:focus {
 .auth-icon {
   margin-right: 10px;
   fill: currentColor;
+}
+
+.hero {
+  text-align: center;
+}
+
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  padding: 200px 0;
+  margin: 0 auto;
+  background-color: #2f303a;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../images/hero/hero.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-text {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  border: none;
+  border-radius: 4px;
+  padding: 10px 32px;
+  text-align: center;
+  background-color: #2196f3;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  letter-spacing: 0.96px;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
